@@ -6,17 +6,23 @@
 
 
 # num = float(input('Введите число: '))
-# sum = 0
+# summa = 0
 # while num != int(num):
 #     num = num*10
 # print(num)
-# while num != 0:
+# while num != 0:                                #Через float не получилось
 #     ost = num % 10
-#     sum +=ost
+#     summa +=ost
 #     num = num // 10
-# print(sum)
+# print(summa)
 
 
+# num = input('Введите число: ')
+# summa = 0
+# for i in num:
+#     if i.isdigit():
+#         summa += int(i)
+# print(summa)
 
 
 # 2. Задайте список из n чисел последовательности (1 + 1/n)^n. Вывести в консоль
@@ -25,11 +31,9 @@
 # number = int(input('Введите число: '))
 # my_list = []
 # for n in range(1, number+1):
-#     my_list.append(f'{n}: {(1+1/n)**n}')
+#     my_list.append(round(((1+1/n)**n), 2))
 # print(my_list)
-
-
-
+# print(sum(my_list))
 
 
 
